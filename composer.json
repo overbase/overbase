@@ -1,0 +1,19 @@
+{
+    "name": "overbase/overbase",
+    "description": "Toolkit for database engineering",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Overbase\\Overbase\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rostyslav Rava",
+            "email": "rostyslav@overbase.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
