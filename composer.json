@@ -8,6 +8,7 @@
             "Overbase\\": "src/Overbase"
         }
     },
+    "bin": ["bin/overbase"],
     "authors": [
         {
             "name": "Rostyslav Rava",
