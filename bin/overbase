@@ -1,5 +1,9 @@
 #!/usr/bin/env php
 <?php
 
-printf("OverBase V1.00\n");
+if (is_file(__DIR__ . '/../vendor/autoload.php')) {
+    require_once __DIR__ . '/../vendor/autoload.php';
+}
 
+$app = new Overbase\Console\OverbaseApplication();
+$app->run();
