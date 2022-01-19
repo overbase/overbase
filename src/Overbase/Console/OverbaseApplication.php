@@ -6,6 +6,6 @@ class OverbaseApplication
 {
 
     public function run() {
-        printf("OverBase V1.00\n");
+        printf("OverBase 1.0.0\n");
     }
 }
