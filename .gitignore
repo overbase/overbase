@@ -7,3 +7,6 @@ composer.lock
 # PhpStorm
 .idea/
 *.iml
+
+# PHPUnit results cache
+.phpunit.result.cache
