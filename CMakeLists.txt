@@ -7,4 +7,5 @@ set(CMAKE_C_STANDARD 11)
 include_directories(src)
 
 add_executable(overbase
-        src/main.c)
+        src/main.c
+        src/command/help.c)
