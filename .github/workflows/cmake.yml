@@ -47,6 +47,11 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Install PostgreSQL
+      if: matrix.os == 'ubuntu-24.04'
+      run: |
+          sudo apt -y install postgresql-all
+
     - name: Set reusable strings
       # Turn repeated input strings (such as the build output directory) into step outputs. These step outputs can be used throughout the workflow file.
       id: strings
