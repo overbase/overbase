@@ -8,4 +8,4 @@ include_directories(src)
 
 add_executable(overbase
         src/main.c
-        src/command/help.c)
+        src/cmd/help.c)

@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <string.h>
-#include "command/help.h"
+#include "cmd/help.h"
 
-typedef void (*CommandFunction)();
+typedef void (*CmdFnc)();
 
 typedef struct {
     const char* name;
-    CommandFunction function;
-} Command;
+    CmdFnc function;
+} Cmd;
 
-Command commands[] = {
+Cmd commands[] = {
         {"help", help}
 };
 
