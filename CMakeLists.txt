@@ -2,11 +2,9 @@ cmake_minimum_required(VERSION 3.28)
 
 project(overbase C)
 
+include(CTest)
+
 set(CMAKE_C_STANDARD 11)
 
-include_directories(src)
-
-add_executable(overbase
-        src/main.c
-        src/cmd/help.c
-        src/core/uri.h)
+add_subdirectory(src)
+add_subdirectory(test)
