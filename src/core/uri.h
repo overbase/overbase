@@ -17,4 +17,6 @@ typedef struct {
     char* db;
 } URI;
 
+URI parse_uri(const char* uri_string);
+
 #endif //OVERBASE_URI_H
